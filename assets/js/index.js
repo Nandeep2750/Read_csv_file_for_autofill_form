@@ -40,8 +40,8 @@ $(function () {
                     myReader.onload = function (e) {
 
                         var content = myReader.result;
-                        //split csv file using "\n" for new line ( each row)
-                        var lines = content.split("\r");
+                        //split csv file using "\n" for new line (each row)
+                        var lines = content.split("\n");
                         total_count = lines.length - 1
 
                         all_data = lines;
